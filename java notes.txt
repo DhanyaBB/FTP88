@@ -1,0 +1,168 @@
+OOP:
+its an appoarh tat provides a way of modularizing programming that 
+which can be used to create small partition mem area for both data and objects
+,whiich are to be used as template for creaating copies of such modules on demand.
+
+object : is a real world entity 
+3 charates : state ,behaviour,Identity
+
+oops features:
+Encapsulation:
+wrapping up of data nd function into single unit know as encapsulation
+
+Abstraction:
+hiding the irrelevant details of an obj that do not contribute to its 
+essential charatertics as abstraction
+
+Inheritance:
+Deriving a new entity from already exisiting know as inheritance ,through
+inheritance we can reduce the size of the program.
+
+polymorphism:
+The ability to take more than one form 
+
+class:
+A class is a template or blueprint,that which contain combination od data member 
+and mem func.mem's can be accessable by using instance of the class
+
+class class_name
+{
+....
+....
+}
+
+Why java:
+platform independence
+console apps
+windows/web/service oriented/mobiles oriented
+package
+
+java features:
+	simple
+	obj oreinted
+	compiled and interpreted
+	portable
+	secureble: compiler level security and bytecode level security and classloader level security
+	distrubed
+
+java architecture
+java program
+ java codes is that which is stored woith extension .jaa
+java class
+java pgm after compalition its converted into bytecode, then .class file will be created
+ jvm
+  1.class loader: used to load all the class which are redueried to run the pgm.
+     
+a.primordial class loader: used to load all system classes that is required to run the pgm
+
+b.class loader object:used to load all custom classes that which is required to run the program
+
+ii)JIT complier:
+just in time
+
+iii)Execution manager:
+
+
+It provides runtime env that which allows you to run the java pgm.
+
+
+
+Access modifiers:
+1. Private: allows you to acess within current class
+
+2.public : allow you to access mems in all classes of current app
+
+3.protected : allow you to access mems within the current class,derived clas and other class and other package classes
+
+4.friendly: by default java possess friendly access modifier, allows you to access mems in all classes of current package.
+
+
+Datatypes:
+2 types
+1)value types: int,float,double,char,boolean etc
+
+2) reference types: string, objects etc
+
+***value types will be stored in stack memory
+ref type will be store in heap mem
+
+
+system.out.println() : used to display any value or msg.
+
+system - class
+out - console
+println - method
+
+you can define the main method in java as
+
+public static void main(string[] args)
+{
+.....
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	java api
