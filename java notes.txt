@@ -101,8 +101,131 @@ public static void main(string[] args)
 }
 
 
+main() must be static as no class object supposed to class to call the method main()
+
+int x;
+x='$';
+x=12;
+x=12.5;
 
 
+boxing and unboxing:
+***
+The concept of converting values types to references types known as boxing, and ref type to value type known as 
+unboxing
+
+obj is the type that which can be used for boxing and unboxing
+
+object x;
+x='$';
+x=12;
+x=12.5;
+
+
+what is difference between == and equals()????????
+
+
+get.class():
+
+toString():
+
+
+ARRAY
+
+for each
+Enumerator
+hasNext()
+next()
+
+
+
+Arrays :  
+
+  An array is the finite ordered set of homogeneous elements, means all the elements belongs to same data type. 
+
+you can declare an array as 
+
+int[] a=new int[]{12,5,6,23,15};
+
+
+Method Overloading : The concept of using the same methodname with different data types or different no.of parameters known as method overloading. Here, the method name must be same, but no.of parameters and type of parameters we are passing here are different. 
+
+class Demo {
+  int a,b;
+  a=5;
+  b=7;
+}
+
+A constructor is a special member, that which is used to initilize the member variables of the class, it is special because it has the same name as that of class name. 
+
+Rules : 
+________
+
+  1) It will not contains any return type. 
+
+  2) It will not return any value. 
+
+  3) It will be invoked automatically once the instance of the class created. 
+
+  4) A constructor can be overloaded. 
+
+Types of Constructors : 
+________________________
+
+   There are 2 types of constructors known as 
+
+  (i) static constructor : These are the constructors that which are invoked automatically before the control reaches the entry point. These constructors are used to initilize the static variables of the class, these constructors cannot be overloaded. 
+
+ (ii) instance constructor : These are the constructors that which are invoked automatically once the instance the class created. These constructors can be overloaded. 
+
+You can define static constructor using static block
+
+static {
+....
+....
+}
+
+static methods : These are the methods that which are to be called by using class name, no object required to call these methods. 
+
+Inheritance : Deriving a new class from already existing class known as inheritance, the class which is derived known as derived class, the class from which it is derived known as base class, through inheritance we can reduce the size of the program. 
+
+class First {
+...
+...
+...
+}
+
+class Second extends First {
+...
+...
+...
+}
+
+once you create an object to Second class, then you can access all public/protected and friendly members of First class. 
+
+
+
+1) Display class as Agent with members 
+	agentId int,
+	name String,
+        city 
+
+and store 3 objects of each {use constructors}
+
+override hashCode(),
+
+equals()
+
+toString() methods
+
+
+2) Write your own program to implement static variables
+
+3) change the inheritance programs to final and see the output
+
+4) Write your own program on super constructor 
+
+5) Create 5 objects of Agent class and display them by using generalized for loop.
 
 
 
